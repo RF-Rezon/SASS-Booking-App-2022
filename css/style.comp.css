@@ -108,6 +108,7 @@ body {
     height: 3.75rem;
     width: 3.75rem;
     border-radius: 50%;
+    border: 1.5px solid #dcdbdb;
     margin-right: 1rem;
     display: flex;
     justify-content: flex-start;
@@ -270,9 +271,10 @@ body {
   .recommend__photo {
     box-sizing: content-box;
     border-radius: 50%;
-    height: 4rem;
-    width: 4rem;
-    border: 3.25px solid #fff; }
+    height: 3.5rem;
+    width: 3.5rem;
+    border: 2px solid #fff;
+    object-fit: cover; }
     .recommend__photo:not(:last-child) {
       margin-right: -1.5rem; }
 
